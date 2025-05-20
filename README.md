@@ -84,7 +84,8 @@
     </tr>
     <tr>
       <td><strong>Rhubarb</strong></td>
-      <td>Lip sync tool for voice animations</td>
+      <td><p>Lip sync tool for voice animations.</p> 
+        <p>Install under: <code> EvilLLM/backend/utils </code> </p></td>
       <td><a href="https://github.com/DanielSWolf/rhubarb-lip-sync" target="_blank">GitHub</a></td>
     </tr>
   </tbody>
@@ -105,7 +106,7 @@
 
 </br>
 
-> :warning: Make sure all dependencies listed above have been installed
+> :warning: Make sure all dependencies listed above have been installed and rhubarb is installed in <code>EvilLLM/backend/utils</code>
 
 1. Clone the Repository:
 
