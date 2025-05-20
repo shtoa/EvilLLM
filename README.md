@@ -9,7 +9,7 @@
 
 <details open>
 
-<summary > 📦 1. Dependencies 📦 </summary>
+<summary align=center> 📦 1. Dependencies 📦 </summary>
 
 --- 
 
@@ -104,7 +104,7 @@
 
 <details open>
 
-<summary>⚙️  2. Installation  ⚙️</summary>
+<summary align=center>⚙️  2. Installation  ⚙️</summary>
 
 <h2 align=center> INSTALLATION GUIDE </h2>
 
