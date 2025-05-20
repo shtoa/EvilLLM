@@ -1,6 +1,10 @@
 # <p align =center> ( ` ᢍ ´ ) EvilLLM (  •̀ω  •́  ) <p>
 <p align = center> 🦙 *Llama3.2* powered chatbot that becomes more ↻(𓄼 .̀  ̮.́)Ψ evil with time... Frontend built with THREE.js. </p>
 
+<p align="center">
+  <img src="img/chatgif.gif" alt="chatbotGif">
+</p>
+
 --- 
 
 <details open>
