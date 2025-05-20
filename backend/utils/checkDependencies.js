@@ -44,11 +44,11 @@ export function checkDependencies(){
 
     console.log("\n"+centerText(" Python ",220,"-")+"\n")
 
-    // Check python3
+    // Check python
     check = checkCommand(
-    'python3',
-     "python3",
-    'Install python3: https://www.python.org/downloads/'
+    'python',
+     "python",
+    'Install python: https://www.python.org/downloads/'
     ); 
 
     // Check pip
