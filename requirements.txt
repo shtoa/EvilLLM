@@ -1,0 +1,3 @@
+whisper-timestamped
+pydub
+gTTS

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "soundFile": "C:\\Users\\matve\\OneDrive\\Desktop\\teaTate\\evilm\\frontend\\temp\\response\\voiceLine.wav",
+    "duration": 4.60
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.25, "value": "X" },
+    { "start": 0.25, "end": 0.32, "value": "C" },
+    { "start": 0.32, "end": 0.39, "value": "D" },
+    { "start": 0.39, "end": 0.60, "value": "B" },
+    { "start": 0.60, "end": 0.81, "value": "C" },
+    { "start": 0.81, "end": 0.88, "value": "G" },
+    { "start": 0.88, "end": 1.09, "value": "B" },
+    { "start": 1.09, "end": 1.16, "value": "G" },
+    { "start": 1.16, "end": 1.24, "value": "A" },
+    { "start": 1.24, "end": 1.31, "value": "C" },
+    { "start": 1.31, "end": 1.44, "value": "B" },
+    { "start": 1.44, "end": 1.58, "value": "C" },
+    { "start": 1.58, "end": 1.70, "value": "A" },
+    { "start": 1.70, "end": 1.80, "value": "B" },
+    { "start": 1.80, "end": 1.87, "value": "G" },
+    { "start": 1.87, "end": 1.94, "value": "C" },
+    { "start": 1.94, "end": 2.15, "value": "B" },
+    { "start": 2.15, "end": 2.36, "value": "F" },
+    { "start": 2.36, "end": 2.64, "value": "E" },
+    { "start": 2.64, "end": 2.85, "value": "B" },
+    { "start": 2.85, "end": 2.92, "value": "C" },
+    { "start": 2.92, "end": 3.13, "value": "B" },
+    { "start": 3.13, "end": 3.20, "value": "F" },
+    { "start": 3.20, "end": 3.41, "value": "B" },
+    { "start": 3.41, "end": 3.69, "value": "C" },
+    { "start": 3.69, "end": 3.83, "value": "B" },
+    { "start": 3.83, "end": 3.90, "value": "C" },
+    { "start": 3.90, "end": 3.97, "value": "E" },
+    { "start": 3.97, "end": 4.39, "value": "B" },
+    { "start": 4.39, "end": 4.60, "value": "X" }
+  ]
+}

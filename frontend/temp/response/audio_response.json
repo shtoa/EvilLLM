@@ -1,0 +1,88 @@
+{
+  "text": " Not enough information provided to answer that question accurately.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.3,
+      "end": 4.14,
+      "text": " Not enough information provided to answer that question accurately.",
+      "tokens": [
+        50364,
+        1726,
+        1547,
+        1589,
+        5649,
+        281,
+        1867,
+        300,
+        1168,
+        20095,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23717968280498797,
+      "compression_ratio": 0.9710144927536232,
+      "no_speech_prob": 0.011868868954479694,
+      "confidence": 0.974,
+      "words": [
+        {
+          "text": "Not",
+          "start": 0.3,
+          "end": 0.48,
+          "confidence": 0.846
+        },
+        {
+          "text": "enough",
+          "start": 0.48,
+          "end": 0.8,
+          "confidence": 0.998
+        },
+        {
+          "text": "information",
+          "start": 0.8,
+          "end": 1.4,
+          "confidence": 0.999
+        },
+        {
+          "text": "provided",
+          "start": 1.4,
+          "end": 2.06,
+          "confidence": 0.994
+        },
+        {
+          "text": "to",
+          "start": 2.06,
+          "end": 2.34,
+          "confidence": 0.996
+        },
+        {
+          "text": "answer",
+          "start": 2.34,
+          "end": 2.72,
+          "confidence": 0.995
+        },
+        {
+          "text": "that",
+          "start": 2.72,
+          "end": 2.98,
+          "confidence": 0.997
+        },
+        {
+          "text": "question",
+          "start": 2.98,
+          "end": 3.46,
+          "confidence": 0.994
+        },
+        {
+          "text": "accurately.",
+          "start": 3.46,
+          "end": 4.14,
+          "confidence": 0.959
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

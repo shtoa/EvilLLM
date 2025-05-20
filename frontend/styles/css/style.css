@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "BleedingCowboys";
+    src: url("../../Assets/Fonts/Bleeding_Cowboys.ttf");
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+}
+
+.promptContainer{
+    display:flex;
+    margin: 20px;
+    margin-left: 100px;
+    position: absolute;
+    color:white;
+    font-family: "BleedingCowboys"
+}
+
+
+#subtitles{
+    display:flex;
+    margin: 0px auto;
+    justify-content: center;
+    top: calc(90vh - 70px);
+    width: 100%;
+
+    position: absolute;
+    color:rgb(0, 255, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 50px;
+    font-family: "BleedingCowboys"
+}
+
+#subtitles{
+    display:flex;
+    margin: 0px auto;
+    justify-content: center;
+    top: calc(90vh - 25px);
+    width: 100%;
+
+    position: absolute;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 50px;
+    font-family: "BleedingCowboys"
+}
+
+.word.active{
+    margin-right: 0.25em;
+    color:rgb(0, 255, 0);
+}
+
+.word{
+    margin-right: 0.25em;
+    color:rgb(255, 255, 255);
+}

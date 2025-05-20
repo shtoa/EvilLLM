@@ -1,0 +1,53 @@
+{
+  "text": " What is going on?",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.22,
+      "end": 0.86,
+      "text": " What is going on?",
+      "tokens": [
+        50364,
+        708,
+        307,
+        516,
+        322,
+        30,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3921334147453308,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 0.2564397156238556,
+      "confidence": 0.832,
+      "words": [
+        {
+          "text": "What",
+          "start": 0.22,
+          "end": 0.34,
+          "confidence": 0.569
+        },
+        {
+          "text": "is",
+          "start": 0.34,
+          "end": 0.46,
+          "confidence": 0.918
+        },
+        {
+          "text": "going",
+          "start": 0.46,
+          "end": 0.64,
+          "confidence": 0.927
+        },
+        {
+          "text": "on?",
+          "start": 0.64,
+          "end": 0.86,
+          "confidence": 0.988
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
