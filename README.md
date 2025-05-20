@@ -114,16 +114,16 @@ HTTP:
 ```bash
 git clone https://github.com/shtoa/EvilLLM.git
 ```
-SSH
+SSH:
 ```bash
 git clone git@github.com:shtoa/EvilLLM.git
 ```
 
-2. npm install in the root folder
+2. npm install in the root folder:
 ```bash
 npm install
 ```
-3. locate and run index.js from the backend folder with node (will perform automatic dependency check and prompt installation)
+3. Locate and run index.js from the backend folder with node (will perform automatic dependency check and prompt installation):
 
 ```bash
 cd backend
