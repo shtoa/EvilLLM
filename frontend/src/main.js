@@ -28,6 +28,7 @@ const preload = async() =>{
 
 const init = async() => {
 
+
     await initScene();
     await initCanvas();
     await initRenderPipeline();

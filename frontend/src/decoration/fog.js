@@ -4,9 +4,13 @@ import * as THREE from 'https://cdn.skypack.dev/three@0.128.0/build/three.module
 import { UpdateManager } from "../managers/UpdateManager.js";
 import { socket } from "../socket.js";
 import { TWEEN } from 'https://unpkg.com/three@0.128.0/examples/jsm/libs/tween.module.min.js';
+import { DEBUG_MODE, camera } from "../core/initScene.js";
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+import { renderer } from "../core/initRenderPipeline.js";
 
 var shaders = [];
 var fogLerpTween;
+var orbitControls;
 
 export const ModifyFogShader = (s)=>{
     shaders.push(s);
@@ -17,6 +21,13 @@ export function initFog(){
     // Start the animation Loop
     scene.fog = new THREE.FogExp2(0x39FF14, 0.0015);
     initializeFogShader();
+
+
+    if(DEBUG_MODE){
+        orbitControls = new OrbitControls( camera, renderer.domElement );
+        orbitControls.update();
+    }
+    
 }
 
 function initializeFogShader()
@@ -68,19 +79,20 @@ function initializeFogShader()
 }
 
 function initLerpFogTween(target){
-    fogLerpTween = new TWEEN.Tween(scene.fog).to({density: target}, 30000).easing(TWEEN.Easing.Cubic.InOut);
+    fogLerpTween = new TWEEN.Tween(scene.fog).to({density: target}, 20000).easing(TWEEN.Easing.Cubic.InOut);
     
     if(!fogLerpTween._isPlaying){
         fogLerpTween.start();
     }
 };
 
-socket.on("hasFinishedProcessing", (hasFinishedProcessing,result) =>{
-    if(hasFinishedProcessing) initLerpFogTween(scene.fog.density < 0.05 ? Math.max(scene.fog.density+Math.random()*0.01,0) : 0.25); 
+socket.on("insanityUpdate", (result) =>{
+    initLerpFogTween(result.value*0.01); 
 });
 
 UpdateManager.add(()=>{
     for(let s of shaders){
         s.uniforms.fogTime.value = scene.userData.globalTime/10;
     }
+    
 })

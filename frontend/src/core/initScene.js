@@ -1,12 +1,16 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.128.0/build/three.module.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js';
 import { ChatbotCharacter } from "../chatbot/ChatbotCharacter.js";
 import { ModifyFogShader } from "../decoration/fog.js";
 import { initTVs } from '../decoration/tvs.js';
 import { UpdateManager } from '../managers/UpdateManager.js';
 import { faceHelper } from './faceHelperInstance.js';
+import { socket } from '../socket.js';
+import { renderer } from './initRenderPipeline.js';
 
 export var scene, chatBot, camera;
-var DEBUG_MODE = false;
+export var DEBUG_MODE = false;
+var orbitControls;
 var texLoader = new THREE.TextureLoader();
 
 export function initScene(){
@@ -73,10 +77,10 @@ function setupCamera(){
     // make main camera
     scene.userData.mainCamera = camera;
 
-    if(DEBUG_MODE){
-        orbitControls = new OrbitControls( camera, renderer.domElement );
-        orbitControls.update();
-    }
+    // if(DEBUG_MODE){
+    //     orbitControls = new OrbitControls( camera, renderer.domElement );
+    //     orbitControls.update();
+    // }
     
 
 }
@@ -99,14 +103,23 @@ document.addEventListener('resize', ()=>{
 
 UpdateManager.add(()=>{
 
-    if(DEBUG_MODE) orbitControls.update();
+    // if(DEBUG_MODE) orbitControls.update();
     chatBot.update();
 
 
-    // abstract this as well
+    // TODO: Move into separate function
     faceHelper.getFaceCenterPosition().then((position)=>{
         if(position != null){
+            
+            chatBot.isInsanityReset = false;
             if(!DEBUG_MODE) camera.position.copy(new THREE.Vector3(position.x,position.y,-0.8).multiplyScalar(-2).add(new THREE.Vector3(0,5,2)));
+        
+        } else if(!chatBot.isInsanityReset && !chatBot.insanityLerpTween.isPlaying()) {
+
+            chatBot.initInsanityLerp(0);
+            socket.emit("insanityUpdate", 0);
+            chatBot.isInsanityReset = true;
+
         }
     })
 

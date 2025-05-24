@@ -1,7 +1,14 @@
 export {process_text_prompt, generate_tts, phonemes_from_audio, words_from_audio}
 import { get_ollama_response } from "./ollama_wrapper.js";
+import { get_insanity_prompt } from './prompt_manipulation/insanityPrompter.js';
 import { io } from "../../index.js"; 
 import { spawn } from 'child_process';
+
+// Track insanity level - starts at 0 and increases with usage
+export var insanityLevel = {value : 0};
+const MAX_INSANITY = 10;
+const INSANITY_INCREMENT = 1; // Adjust how quickly insanity increases
+
 
 // return cli promise
 function handle_process_result(process, processName, output){
@@ -78,11 +85,24 @@ async function process_text_prompt(prompt,socket){
     var pipeline_results;
 
     try{
-        // get response from ollama
-        const response = await get_ollama_response(prompt);
+        // Increase insanity level with each request
+        insanityLevel.value = Math.min(insanityLevel.value + INSANITY_INCREMENT, MAX_INSANITY);
+        
+        // Modify the prompt based on current insanity level
+        const modifiedPrompt = get_insanity_prompt(insanityLevel.value, prompt);
+        const insanityLevelNorm = insanityLevel.value / MAX_INSANITY;
+        
+        // Use the modified prompt instead of the original
+        const response = await get_ollama_response(modifiedPrompt);
+        
+        //  Let the client know the current insanity level
+        socket.emit('insanityUpdate', {value: insanityLevelNorm});
 
         // handle TTS (text to speech) -> STT (speech to text) analysis
         pipeline_results = await voiceline_pipeline(response); 
+
+        console.log(insanityLevel.value, modifiedPrompt)
+
 
     } catch(err){
 

@@ -23,8 +23,7 @@ export class FaceTrackHelper {
     // global gestureRecognizer variable
     faceLandmarker;
     video;
-    
-
+    isDetecting;
 
     constructor(){
 
@@ -189,11 +188,13 @@ export class FaceTrackHelper {
         const nowInMs = Date.now();
         var result = this.faceLandmarker.detectForVideo(this.video, nowInMs);
 
+        this.isDetecting = typeof(result) != undefined
 
-        if(typeof(result) != undefined){
+        if(this.isDetecting){
 
             if(result.faceLandmarks.length > 0){
-                //console.log(result.faceLandmarks[0][4]);
+                this.isDetecting = true;
+             
                 var pos = result.faceLandmarks[0][4];
                 pos = new THREE.Vector3(pos.x, pos.y, pos.z);
 
@@ -202,9 +203,8 @@ export class FaceTrackHelper {
                 return posNormalized;
 
 
-            }
-         
-        }
+            } 
+        } 
 
     }
 

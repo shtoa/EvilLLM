@@ -6,3 +6,4 @@ export async function preloadFaceHelper(){
     await faceHelper.initVideo();
     await faceHelper.createFaceLandmarker();
 }
+

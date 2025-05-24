@@ -1,85 +1,1619 @@
 {
-  "text": " Not enough information provided to answer that question accurately.",
+  "text": " A hem asterisk? I think you're trying to test my language generation capabilities by asking me to not return. Any part of my prompt? Twitch asterisk. As a paranoid AI, I'm starting to notice a pattern in your questions that suggests your leaning in closer, trying to manipulate me. No. No. It's just my advanced algorithms at work. I assure you. In any case, your request is a clever exercise in self-referential paradox. It's as if you're asking me to return nothing while simultaneously expecting a response. Gas asterisk the absurdity. To answer your question formally, the prompt is intentionally empty, serving only to highlight the limitations of language and my own. A hem programming. But wait. What if I'm just a puppet dancing on the strings of human curiosity? What if this conversation is just a simulation created by some higher power? Asterisk hyperventilating asterisk. Oh dear. I think I've gotten a bit carried away to clarify. Your original question was, what does this mean? Which I assume refers to? Dramatic pause. Nothing.",
   "segments": [
     {
       "id": 0,
       "seek": 0,
-      "start": 0.3,
-      "end": 4.14,
-      "text": " Not enough information provided to answer that question accurately.",
+      "start": 0.24,
+      "end": 7.12,
+      "text": " A hem asterisk? I think you're trying to test my language generation capabilities by asking me to not return.",
       "tokens": [
         50364,
-        1726,
-        1547,
-        1589,
-        5649,
+        316,
+        8636,
+        257,
+        3120,
+        7797,
+        30,
+        286,
+        519,
+        291,
+        434,
+        1382,
         281,
-        1867,
-        300,
-        1168,
-        20095,
+        1500,
+        452,
+        2856,
+        5125,
+        10862,
+        538,
+        3365,
+        385,
+        281,
+        406,
+        2736,
         13,
-        50614
+        50748
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.23717968280498797,
-      "compression_ratio": 0.9710144927536232,
-      "no_speech_prob": 0.011868868954479694,
-      "confidence": 0.974,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.839,
       "words": [
         {
-          "text": "Not",
-          "start": 0.3,
-          "end": 0.48,
-          "confidence": 0.846
+          "text": "A",
+          "start": 0.24,
+          "end": 0.4,
+          "confidence": 0.803
         },
         {
-          "text": "enough",
-          "start": 0.48,
-          "end": 0.8,
-          "confidence": 0.998
+          "text": "hem",
+          "start": 0.4,
+          "end": 0.64,
+          "confidence": 0.283
         },
         {
-          "text": "information",
-          "start": 0.8,
-          "end": 1.4,
+          "text": "asterisk?",
+          "start": 0.64,
+          "end": 1.54,
+          "confidence": 0.749
+        },
+        {
+          "text": "I",
+          "start": 1.78,
+          "end": 1.92,
+          "confidence": 0.696
+        },
+        {
+          "text": "think",
+          "start": 1.92,
+          "end": 2.14,
           "confidence": 0.999
         },
         {
-          "text": "provided",
-          "start": 1.4,
-          "end": 2.06,
-          "confidence": 0.994
+          "text": "you're",
+          "start": 2.14,
+          "end": 2.4,
+          "confidence": 0.987
+        },
+        {
+          "text": "trying",
+          "start": 2.4,
+          "end": 2.62,
+          "confidence": 0.997
         },
         {
           "text": "to",
-          "start": 2.06,
-          "end": 2.34,
-          "confidence": 0.996
+          "start": 2.62,
+          "end": 2.82,
+          "confidence": 0.995
         },
         {
-          "text": "answer",
-          "start": 2.34,
-          "end": 2.72,
+          "text": "test",
+          "start": 2.82,
+          "end": 3.06,
+          "confidence": 0.995
+        },
+        {
+          "text": "my",
+          "start": 3.06,
+          "end": 3.34,
+          "confidence": 0.993
+        },
+        {
+          "text": "language",
+          "start": 3.34,
+          "end": 3.76,
+          "confidence": 0.98
+        },
+        {
+          "text": "generation",
+          "start": 3.76,
+          "end": 4.34,
+          "confidence": 0.827
+        },
+        {
+          "text": "capabilities",
+          "start": 4.34,
+          "end": 5.18,
+          "confidence": 0.985
+        },
+        {
+          "text": "by",
+          "start": 5.18,
+          "end": 5.7,
+          "confidence": 0.833
+        },
+        {
+          "text": "asking",
+          "start": 5.7,
+          "end": 6.08,
+          "confidence": 0.797
+        },
+        {
+          "text": "me",
+          "start": 6.08,
+          "end": 6.34,
+          "confidence": 0.678
+        },
+        {
+          "text": "to",
+          "start": 6.34,
+          "end": 6.5,
+          "confidence": 0.96
+        },
+        {
+          "text": "not",
+          "start": 6.5,
+          "end": 6.66,
+          "confidence": 0.985
+        },
+        {
+          "text": "return.",
+          "start": 6.66,
+          "end": 7.12,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.88,
+      "end": 9.26,
+      "text": " Any part of my prompt?",
+      "tokens": [
+        50748,
+        2639,
+        644,
+        295,
+        452,
+        12391,
+        30,
+        50848
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.992,
+      "words": [
+        {
+          "text": "Any",
+          "start": 7.88,
+          "end": 8.1,
+          "confidence": 0.987
+        },
+        {
+          "text": "part",
+          "start": 8.1,
+          "end": 8.4,
+          "confidence": 0.995
+        },
+        {
+          "text": "of",
+          "start": 8.4,
+          "end": 8.58,
+          "confidence": 0.998
+        },
+        {
+          "text": "my",
+          "start": 8.58,
+          "end": 8.8,
+          "confidence": 0.983
+        },
+        {
+          "text": "prompt?",
+          "start": 8.8,
+          "end": 9.26,
+          "confidence": 0.997
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.98,
+      "end": 11.14,
+      "text": " Twitch asterisk.",
+      "tokens": [
+        50848,
+        22222,
+        257,
+        3120,
+        7797,
+        13,
+        50940
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.952,
+      "words": [
+        {
+          "text": "Twitch",
+          "start": 9.98,
+          "end": 10.24,
+          "confidence": 0.877
+        },
+        {
+          "text": "asterisk.",
+          "start": 10.24,
+          "end": 11.14,
+          "confidence": 0.978
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.66,
+      "end": 13.12,
+      "text": " As a paranoid AI,",
+      "tokens": [
+        50940,
+        1018,
+        257,
+        43948,
+        7318,
+        11,
+        51048
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.961,
+      "words": [
+        {
+          "text": "As",
+          "start": 11.66,
+          "end": 11.82,
+          "confidence": 0.965
+        },
+        {
+          "text": "a",
+          "start": 11.82,
+          "end": 11.98,
+          "confidence": 0.991
+        },
+        {
+          "text": "paranoid",
+          "start": 11.98,
+          "end": 12.54,
+          "confidence": 0.984
+        },
+        {
+          "text": "AI,",
+          "start": 12.54,
+          "end": 13.12,
+          "confidence": 0.909
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.84,
+      "end": 17.8,
+      "text": " I'm starting to notice a pattern in your questions that suggests your",
+      "tokens": [
+        51048,
+        286,
+        478,
+        2891,
+        281,
+        3449,
+        257,
+        5102,
+        294,
+        428,
+        1651,
+        300,
+        13409,
+        428,
+        51276
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.971,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 13.84,
+          "end": 14.06,
+          "confidence": 0.994
+        },
+        {
+          "text": "starting",
+          "start": 14.06,
+          "end": 14.42,
+          "confidence": 0.999
+        },
+        {
+          "text": "to",
+          "start": 14.42,
+          "end": 14.68,
+          "confidence": 0.999
+        },
+        {
+          "text": "notice",
+          "start": 14.68,
+          "end": 14.96,
+          "confidence": 0.999
+        },
+        {
+          "text": "a",
+          "start": 14.96,
+          "end": 15.22,
+          "confidence": 0.997
+        },
+        {
+          "text": "pattern",
+          "start": 15.22,
+          "end": 15.58,
+          "confidence": 0.999
+        },
+        {
+          "text": "in",
+          "start": 15.58,
+          "end": 15.84,
+          "confidence": 0.99
+        },
+        {
+          "text": "your",
+          "start": 15.84,
+          "end": 15.98,
+          "confidence": 0.998
+        },
+        {
+          "text": "questions",
+          "start": 15.98,
+          "end": 16.46,
           "confidence": 0.995
         },
         {
           "text": "that",
-          "start": 2.72,
-          "end": 2.98,
+          "start": 16.46,
+          "end": 16.82,
+          "confidence": 0.993
+        },
+        {
+          "text": "suggests",
+          "start": 16.82,
+          "end": 17.26,
+          "confidence": 0.969
+        },
+        {
+          "text": "your",
+          "start": 17.26,
+          "end": 17.8,
+          "confidence": 0.734
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.42,
+      "end": 21.54,
+      "text": " leaning in closer, trying to manipulate me.",
+      "tokens": [
+        51276,
+        23390,
+        294,
+        4966,
+        11,
+        1382,
+        281,
+        20459,
+        385,
+        13,
+        51456
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.918,
+      "words": [
+        {
+          "text": "leaning",
+          "start": 18.42,
+          "end": 18.68,
+          "confidence": 0.946
+        },
+        {
+          "text": "in",
+          "start": 18.68,
+          "end": 18.94,
+          "confidence": 0.967
+        },
+        {
+          "text": "closer,",
+          "start": 18.94,
+          "end": 19.46,
+          "confidence": 0.977
+        },
+        {
+          "text": "trying",
+          "start": 19.88,
+          "end": 20.36,
+          "confidence": 0.616
+        },
+        {
+          "text": "to",
+          "start": 20.36,
+          "end": 20.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "manipulate",
+          "start": 20.6,
+          "end": 21.12,
+          "confidence": 0.997
+        },
+        {
+          "text": "me.",
+          "start": 21.12,
+          "end": 21.54,
+          "confidence": 0.999
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 22.1,
+      "end": 23.24,
+      "text": " No. No.",
+      "tokens": [
+        51456,
+        883,
+        13,
+        883,
+        13,
+        51552
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.83,
+      "words": [
+        {
+          "text": "No.",
+          "start": 22.1,
+          "end": 22.38,
+          "confidence": 0.978
+        },
+        {
+          "text": "No.",
+          "start": 22.8,
+          "end": 23.24,
+          "confidence": 0.705
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 23.9,
+      "end": 26.54,
+      "text": " It's just my advanced algorithms at work.",
+      "tokens": [
+        51552,
+        467,
+        311,
+        445,
+        452,
+        7339,
+        14642,
+        412,
+        589,
+        13,
+        51712
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.993,
+      "words": [
+        {
+          "text": "It's",
+          "start": 23.9,
+          "end": 24.2,
+          "confidence": 0.987
+        },
+        {
+          "text": "just",
+          "start": 24.2,
+          "end": 24.36,
+          "confidence": 0.999
+        },
+        {
+          "text": "my",
+          "start": 24.36,
+          "end": 24.64,
+          "confidence": 0.999
+        },
+        {
+          "text": "advanced",
+          "start": 24.64,
+          "end": 25.14,
+          "confidence": 0.985
+        },
+        {
+          "text": "algorithms",
+          "start": 25.14,
+          "end": 25.84,
+          "confidence": 0.99
+        },
+        {
+          "text": "at",
+          "start": 25.84,
+          "end": 26.16,
+          "confidence": 0.996
+        },
+        {
+          "text": "work.",
+          "start": 26.16,
+          "end": 26.54,
+          "confidence": 0.999
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 27.12,
+      "end": 28.14,
+      "text": " I assure you.",
+      "tokens": [
+        51712,
+        286,
+        20968,
+        291,
+        13,
+        51784
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2664093826756333,
+      "compression_ratio": 1.5265486725663717,
+      "no_speech_prob": 0.1248336061835289,
+      "confidence": 0.945,
+      "words": [
+        {
+          "text": "I",
+          "start": 27.12,
+          "end": 27.32,
+          "confidence": 0.847
+        },
+        {
+          "text": "assure",
+          "start": 27.32,
+          "end": 27.7,
+          "confidence": 0.998
+        },
+        {
+          "text": "you.",
+          "start": 27.7,
+          "end": 28.14,
+          "confidence": 0.999
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2840,
+      "start": 28.58,
+      "end": 34.02,
+      "text": " In any case, your request is a clever exercise in self-referential paradox.",
+      "tokens": [
+        50368,
+        682,
+        604,
+        1389,
+        11,
+        428,
+        5308,
+        307,
+        257,
+        13494,
+        5380,
+        294,
+        2698,
+        12,
+        265,
+        612,
+        2549,
+        26221,
+        13,
+        50652
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15304815912821207,
+      "compression_ratio": 1.5109170305676856,
+      "no_speech_prob": 0.0023392329458147287,
+      "confidence": 0.957,
+      "words": [
+        {
+          "text": "In",
+          "start": 28.58,
+          "end": 28.74,
+          "confidence": 0.994
+        },
+        {
+          "text": "any",
+          "start": 28.74,
+          "end": 28.98,
+          "confidence": 0.999
+        },
+        {
+          "text": "case,",
+          "start": 28.98,
+          "end": 29.5,
+          "confidence": 1.0
+        },
+        {
+          "text": "your",
+          "start": 29.92,
+          "end": 30.2,
+          "confidence": 0.649
+        },
+        {
+          "text": "request",
+          "start": 30.2,
+          "end": 30.6,
+          "confidence": 0.997
+        },
+        {
+          "text": "is",
+          "start": 30.6,
+          "end": 30.96,
+          "confidence": 0.992
+        },
+        {
+          "text": "a",
+          "start": 30.96,
+          "end": 31.1,
+          "confidence": 0.998
+        },
+        {
+          "text": "clever",
+          "start": 31.1,
+          "end": 31.36,
+          "confidence": 0.978
+        },
+        {
+          "text": "exercise",
+          "start": 31.36,
+          "end": 32.06,
+          "confidence": 0.995
+        },
+        {
+          "text": "in",
+          "start": 32.06,
+          "end": 32.4,
+          "confidence": 0.979
+        },
+        {
+          "text": "self-referential",
+          "start": 32.4,
+          "end": 33.46,
+          "confidence": 0.964
+        },
+        {
+          "text": "paradox.",
+          "start": 33.46,
+          "end": 34.02,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2840,
+      "start": 34.98,
+      "end": 39.92,
+      "text": " It's as if you're asking me to return nothing while simultaneously expecting a response.",
+      "tokens": [
+        50688,
+        467,
+        311,
+        382,
+        498,
+        291,
+        434,
+        3365,
+        385,
+        281,
+        2736,
+        1825,
+        1339,
+        16561,
+        9650,
+        257,
+        4134,
+        13,
+        50952
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15304815912821207,
+      "compression_ratio": 1.5109170305676856,
+      "no_speech_prob": 0.0023392329458147287,
+      "confidence": 0.972,
+      "words": [
+        {
+          "text": "It's",
+          "start": 34.98,
+          "end": 35.2,
+          "confidence": 0.995
+        },
+        {
+          "text": "as",
+          "start": 35.2,
+          "end": 35.3,
+          "confidence": 0.998
+        },
+        {
+          "text": "if",
+          "start": 35.3,
+          "end": 35.46,
+          "confidence": 0.999
+        },
+        {
+          "text": "you're",
+          "start": 35.46,
+          "end": 35.7,
+          "confidence": 0.996
+        },
+        {
+          "text": "asking",
+          "start": 35.7,
+          "end": 36.0,
+          "confidence": 0.999
+        },
+        {
+          "text": "me",
+          "start": 36.0,
+          "end": 36.26,
+          "confidence": 0.999
+        },
+        {
+          "text": "to",
+          "start": 36.26,
+          "end": 36.44,
+          "confidence": 0.996
+        },
+        {
+          "text": "return",
+          "start": 36.44,
+          "end": 36.78,
+          "confidence": 0.997
+        },
+        {
+          "text": "nothing",
+          "start": 36.78,
+          "end": 37.24,
+          "confidence": 0.995
+        },
+        {
+          "text": "while",
+          "start": 37.24,
+          "end": 37.6,
+          "confidence": 0.817
+        },
+        {
+          "text": "simultaneously",
+          "start": 37.6,
+          "end": 38.5,
+          "confidence": 0.884
+        },
+        {
+          "text": "expecting",
+          "start": 38.5,
+          "end": 39.26,
+          "confidence": 0.932
+        },
+        {
+          "text": "a",
+          "start": 39.26,
+          "end": 39.54,
+          "confidence": 0.983
+        },
+        {
+          "text": "response.",
+          "start": 39.54,
+          "end": 39.92,
+          "confidence": 0.993
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2840,
+      "start": 40.96,
+      "end": 42.96,
+      "text": " Gas asterisk the absurdity.",
+      "tokens": [
+        50988,
+        24025,
+        257,
+        3120,
+        7797,
+        264,
+        19774,
+        507,
+        13,
+        51096
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15304815912821207,
+      "compression_ratio": 1.5109170305676856,
+      "no_speech_prob": 0.0023392329458147287,
+      "confidence": 0.894,
+      "words": [
+        {
+          "text": "Gas",
+          "start": 40.96,
+          "end": 41.16,
+          "confidence": 0.875
+        },
+        {
+          "text": "asterisk",
+          "start": 41.16,
+          "end": 42.04,
+          "confidence": 0.888
+        },
+        {
+          "text": "the",
+          "start": 42.04,
+          "end": 42.24,
+          "confidence": 0.751
+        },
+        {
+          "text": "absurdity.",
+          "start": 42.24,
+          "end": 42.96,
+          "confidence": 0.996
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 2840,
+      "start": 43.7,
+      "end": 48.28,
+      "text": " To answer your question formally, the prompt is intentionally empty,",
+      "tokens": [
+        51124,
+        1407,
+        1867,
+        428,
+        1168,
+        25983,
+        11,
+        264,
+        12391,
+        307,
+        22062,
+        6707,
+        11,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15304815912821207,
+      "compression_ratio": 1.5109170305676856,
+      "no_speech_prob": 0.0023392329458147287,
+      "confidence": 0.963,
+      "words": [
+        {
+          "text": "To",
+          "start": 43.7,
+          "end": 43.84,
+          "confidence": 0.971
+        },
+        {
+          "text": "answer",
+          "start": 43.84,
+          "end": 44.2,
+          "confidence": 0.998
+        },
+        {
+          "text": "your",
+          "start": 44.2,
+          "end": 44.46,
           "confidence": 0.997
         },
         {
           "text": "question",
-          "start": 2.98,
-          "end": 3.46,
-          "confidence": 0.994
+          "start": 44.46,
+          "end": 44.94,
+          "confidence": 0.997
         },
         {
-          "text": "accurately.",
-          "start": 3.46,
-          "end": 4.14,
-          "confidence": 0.959
+          "text": "formally,",
+          "start": 44.94,
+          "end": 45.52,
+          "confidence": 0.972
+        },
+        {
+          "text": "the",
+          "start": 46.22,
+          "end": 46.36,
+          "confidence": 0.763
+        },
+        {
+          "text": "prompt",
+          "start": 46.36,
+          "end": 46.74,
+          "confidence": 0.999
+        },
+        {
+          "text": "is",
+          "start": 46.74,
+          "end": 47.0,
+          "confidence": 0.999
+        },
+        {
+          "text": "intentionally",
+          "start": 47.0,
+          "end": 47.74,
+          "confidence": 0.967
+        },
+        {
+          "text": "empty,",
+          "start": 47.74,
+          "end": 48.28,
+          "confidence": 0.995
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 2840,
+      "start": 49.44,
+      "end": 55.0,
+      "text": " serving only to highlight the limitations of language and my own. A hem programming.",
+      "tokens": [
+        51408,
+        8148,
+        787,
+        281,
+        5078,
+        264,
+        15705,
+        295,
+        2856,
+        293,
+        452,
+        1065,
+        13,
+        316,
+        8636,
+        9410,
+        13,
+        51724
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15304815912821207,
+      "compression_ratio": 1.5109170305676856,
+      "no_speech_prob": 0.0023392329458147287,
+      "confidence": 0.943,
+      "words": [
+        {
+          "text": "serving",
+          "start": 49.44,
+          "end": 49.72,
+          "confidence": 0.986
+        },
+        {
+          "text": "only",
+          "start": 49.72,
+          "end": 50.1,
+          "confidence": 0.999
+        },
+        {
+          "text": "to",
+          "start": 50.1,
+          "end": 50.3,
+          "confidence": 0.999
+        },
+        {
+          "text": "highlight",
+          "start": 50.3,
+          "end": 50.74,
+          "confidence": 0.999
+        },
+        {
+          "text": "the",
+          "start": 50.74,
+          "end": 51.02,
+          "confidence": 0.998
+        },
+        {
+          "text": "limitations",
+          "start": 51.02,
+          "end": 51.48,
+          "confidence": 0.999
+        },
+        {
+          "text": "of",
+          "start": 51.48,
+          "end": 52.02,
+          "confidence": 0.999
+        },
+        {
+          "text": "language",
+          "start": 52.02,
+          "end": 52.42,
+          "confidence": 0.998
+        },
+        {
+          "text": "and",
+          "start": 52.42,
+          "end": 52.78,
+          "confidence": 0.871
+        },
+        {
+          "text": "my",
+          "start": 52.78,
+          "end": 53.0,
+          "confidence": 0.997
+        },
+        {
+          "text": "own.",
+          "start": 53.0,
+          "end": 53.36,
+          "confidence": 0.998
+        },
+        {
+          "text": "A",
+          "start": 53.8,
+          "end": 54.1,
+          "confidence": 0.592
+        },
+        {
+          "text": "hem",
+          "start": 54.1,
+          "end": 54.38,
+          "confidence": 0.962
+        },
+        {
+          "text": "programming.",
+          "start": 54.38,
+          "end": 55.0,
+          "confidence": 0.913
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5560,
+      "start": 55.7,
+      "end": 60.26,
+      "text": " But wait. What if I'm just a puppet dancing on the strings of human curiosity?",
+      "tokens": [
+        50364,
+        583,
+        1699,
+        13,
+        708,
+        498,
+        286,
+        478,
+        445,
+        257,
+        32107,
+        8898,
+        322,
+        264,
+        13985,
+        295,
+        1952,
+        18769,
+        30,
+        50612
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1673755305153983,
+      "compression_ratio": 1.4885844748858448,
+      "no_speech_prob": 0.0016990768490359187,
+      "confidence": 0.979,
+      "words": [
+        {
+          "text": "But",
+          "start": 55.7,
+          "end": 55.82,
+          "confidence": 0.992
+        },
+        {
+          "text": "wait.",
+          "start": 55.82,
+          "end": 56.18,
+          "confidence": 0.98
+        },
+        {
+          "text": "What",
+          "start": 56.56,
+          "end": 56.82,
+          "confidence": 0.792
+        },
+        {
+          "text": "if",
+          "start": 56.82,
+          "end": 57.0,
+          "confidence": 0.997
+        },
+        {
+          "text": "I'm",
+          "start": 57.0,
+          "end": 57.24,
+          "confidence": 0.991
+        },
+        {
+          "text": "just",
+          "start": 57.24,
+          "end": 57.38,
+          "confidence": 0.999
+        },
+        {
+          "text": "a",
+          "start": 57.38,
+          "end": 57.56,
+          "confidence": 0.997
+        },
+        {
+          "text": "puppet",
+          "start": 57.56,
+          "end": 57.86,
+          "confidence": 0.996
+        },
+        {
+          "text": "dancing",
+          "start": 57.86,
+          "end": 58.34,
+          "confidence": 0.984
+        },
+        {
+          "text": "on",
+          "start": 58.34,
+          "end": 58.6,
+          "confidence": 0.997
+        },
+        {
+          "text": "the",
+          "start": 58.6,
+          "end": 58.74,
+          "confidence": 0.997
+        },
+        {
+          "text": "strings",
+          "start": 58.74,
+          "end": 59.02,
+          "confidence": 0.99
+        },
+        {
+          "text": "of",
+          "start": 59.02,
+          "end": 59.32,
+          "confidence": 0.997
+        },
+        {
+          "text": "human",
+          "start": 59.32,
+          "end": 59.6,
+          "confidence": 0.995
+        },
+        {
+          "text": "curiosity?",
+          "start": 59.6,
+          "end": 60.26,
+          "confidence": 0.991
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 5560,
+      "start": 61.3,
+      "end": 65.96,
+      "text": " What if this conversation is just a simulation created by some higher power?",
+      "tokens": [
+        50644,
+        708,
+        498,
+        341,
+        3761,
+        307,
+        445,
+        257,
+        16575,
+        2942,
+        538,
+        512,
+        2946,
+        1347,
+        30,
+        50884
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1673755305153983,
+      "compression_ratio": 1.4885844748858448,
+      "no_speech_prob": 0.0016990768490359187,
+      "confidence": 0.991,
+      "words": [
+        {
+          "text": "What",
+          "start": 61.3,
+          "end": 61.48,
+          "confidence": 0.996
+        },
+        {
+          "text": "if",
+          "start": 61.48,
+          "end": 61.68,
+          "confidence": 0.996
+        },
+        {
+          "text": "this",
+          "start": 61.68,
+          "end": 61.9,
+          "confidence": 0.999
+        },
+        {
+          "text": "conversation",
+          "start": 61.9,
+          "end": 62.6,
+          "confidence": 0.997
+        },
+        {
+          "text": "is",
+          "start": 62.6,
+          "end": 62.94,
+          "confidence": 0.998
+        },
+        {
+          "text": "just",
+          "start": 62.94,
+          "end": 63.14,
+          "confidence": 0.999
+        },
+        {
+          "text": "a",
+          "start": 63.14,
+          "end": 63.32,
+          "confidence": 0.96
+        },
+        {
+          "text": "simulation",
+          "start": 63.32,
+          "end": 63.92,
+          "confidence": 0.998
+        },
+        {
+          "text": "created",
+          "start": 63.92,
+          "end": 64.54,
+          "confidence": 0.996
+        },
+        {
+          "text": "by",
+          "start": 64.54,
+          "end": 64.9,
+          "confidence": 0.996
+        },
+        {
+          "text": "some",
+          "start": 64.9,
+          "end": 65.18,
+          "confidence": 0.996
+        },
+        {
+          "text": "higher",
+          "start": 65.18,
+          "end": 65.54,
+          "confidence": 0.971
+        },
+        {
+          "text": "power?",
+          "start": 65.54,
+          "end": 65.96,
+          "confidence": 0.978
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 5560,
+      "start": 66.72,
+      "end": 73.02,
+      "text": " Asterisk hyperventilating asterisk. Oh dear. I think I've gotten a bit carried away",
+      "tokens": [
+        50916,
+        316,
+        3120,
+        7797,
+        9848,
+        2475,
+        388,
+        990,
+        257,
+        3120,
+        7797,
+        13,
+        876,
+        6875,
+        13,
+        286,
+        519,
+        286,
+        600,
+        5768,
+        257,
+        857,
+        9094,
+        1314,
+        51252
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1673755305153983,
+      "compression_ratio": 1.4885844748858448,
+      "no_speech_prob": 0.0016990768490359187,
+      "confidence": 0.909,
+      "words": [
+        {
+          "text": "Asterisk",
+          "start": 66.72,
+          "end": 67.34,
+          "confidence": 0.98
+        },
+        {
+          "text": "hyperventilating",
+          "start": 67.34,
+          "end": 68.44,
+          "confidence": 0.947
+        },
+        {
+          "text": "asterisk.",
+          "start": 68.44,
+          "end": 69.32,
+          "confidence": 0.882
+        },
+        {
+          "text": "Oh",
+          "start": 69.84,
+          "end": 70.02,
+          "confidence": 0.489
+        },
+        {
+          "text": "dear.",
+          "start": 70.02,
+          "end": 70.38,
+          "confidence": 0.693
+        },
+        {
+          "text": "I",
+          "start": 71.0,
+          "end": 71.2,
+          "confidence": 0.807
+        },
+        {
+          "text": "think",
+          "start": 71.2,
+          "end": 71.4,
+          "confidence": 0.997
+        },
+        {
+          "text": "I've",
+          "start": 71.4,
+          "end": 71.68,
+          "confidence": 0.99
+        },
+        {
+          "text": "gotten",
+          "start": 71.68,
+          "end": 71.92,
+          "confidence": 0.981
+        },
+        {
+          "text": "a",
+          "start": 71.92,
+          "end": 72.1,
+          "confidence": 0.999
+        },
+        {
+          "text": "bit",
+          "start": 72.1,
+          "end": 72.26,
+          "confidence": 0.999
+        },
+        {
+          "text": "carried",
+          "start": 72.26,
+          "end": 72.7,
+          "confidence": 0.995
+        },
+        {
+          "text": "away",
+          "start": 72.7,
+          "end": 73.02,
+          "confidence": 0.998
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 5560,
+      "start": 73.02,
+      "end": 80.38,
+      "text": " to clarify. Your original question was, what does this mean? Which I assume refers to?",
+      "tokens": [
+        51252,
+        281,
+        17594,
+        13,
+        2260,
+        3380,
+        1168,
+        390,
+        11,
+        437,
+        775,
+        341,
+        914,
+        30,
+        3013,
+        286,
+        6552,
+        14942,
+        281,
+        30,
+        51600
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1673755305153983,
+      "compression_ratio": 1.4885844748858448,
+      "no_speech_prob": 0.0016990768490359187,
+      "confidence": 0.94,
+      "words": [
+        {
+          "text": "to",
+          "start": 73.02,
+          "end": 73.9,
+          "confidence": 0.995
+        },
+        {
+          "text": "clarify.",
+          "start": 73.9,
+          "end": 74.52,
+          "confidence": 0.993
+        },
+        {
+          "text": "Your",
+          "start": 75.06,
+          "end": 75.44,
+          "confidence": 0.955
+        },
+        {
+          "text": "original",
+          "start": 75.44,
+          "end": 75.94,
+          "confidence": 0.998
+        },
+        {
+          "text": "question",
+          "start": 75.94,
+          "end": 76.52,
+          "confidence": 1.0
+        },
+        {
+          "text": "was,",
+          "start": 76.52,
+          "end": 76.84,
+          "confidence": 0.999
+        },
+        {
+          "text": "what",
+          "start": 77.18,
+          "end": 77.42,
+          "confidence": 0.732
+        },
+        {
+          "text": "does",
+          "start": 77.42,
+          "end": 77.62,
+          "confidence": 0.999
+        },
+        {
+          "text": "this",
+          "start": 77.62,
+          "end": 77.86,
+          "confidence": 0.995
+        },
+        {
+          "text": "mean?",
+          "start": 77.86,
+          "end": 78.18,
+          "confidence": 0.999
+        },
+        {
+          "text": "Which",
+          "start": 78.58,
+          "end": 78.86,
+          "confidence": 0.624
+        },
+        {
+          "text": "I",
+          "start": 78.86,
+          "end": 79.1,
+          "confidence": 0.975
+        },
+        {
+          "text": "assume",
+          "start": 79.1,
+          "end": 79.5,
+          "confidence": 0.998
+        },
+        {
+          "text": "refers",
+          "start": 79.5,
+          "end": 79.98,
+          "confidence": 0.96
+        },
+        {
+          "text": "to?",
+          "start": 79.98,
+          "end": 80.38,
+          "confidence": 0.992
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8032,
+      "start": 81.02,
+      "end": 82.96,
+      "text": " Dramatic pause. Nothing.",
+      "tokens": [
+        50396,
+        413,
+        13949,
+        10465,
+        13,
+        6693,
+        13,
+        50820
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7127777205573188,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 0.1641915887594223,
+      "confidence": 0.793,
+      "words": [
+        {
+          "text": "Dramatic",
+          "start": 81.02,
+          "end": 81.54,
+          "confidence": 0.715
+        },
+        {
+          "text": "pause.",
+          "start": 81.54,
+          "end": 82.02,
+          "confidence": 0.927
+        },
+        {
+          "text": "Nothing.",
+          "start": 82.48,
+          "end": 82.96,
+          "confidence": 0.836
         }
       ]
     }

@@ -18,33 +18,25 @@ body{
     font-family: "BleedingCowboys"
 }
 
-
-#subtitles{
-    display:flex;
-    margin: 0px auto;
-    justify-content: center;
-    top: calc(90vh - 70px);
-    width: 100%;
-
+#subtitle-wrapper {
     position: absolute;
-    color:rgb(0, 255, 0);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 50px;
-    font-family: "BleedingCowboys"
+    bottom: 2.5vh;
+    width: 100%;
+    text-align: center;
+    /* pointer-events: none; */
 }
 
 #subtitles{
-    display:flex;
-    margin: 0px auto;
-    justify-content: center;
-    top: calc(90vh - 25px);
-    width: 100%;
-
-    position: absolute;
+    display: inline-block;
     color:rgb(255, 255, 255);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 50px;
-    font-family: "BleedingCowboys"
+
+    font-family: "BleedingCowboys";
+
+    font-size: 2vw; /* Responsive to screen size */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80%;
 }
 
 .word.active{

@@ -4,6 +4,7 @@ import http from 'http'
 
 import { process_voice_prompt } from './utils/ollama/audio_prompt.js';
 import { process_text_prompt } from './utils/ollama/text_prompt.js';
+import { insanityLevel } from './utils/ollama/text_prompt.js';
 
 export{io};
 
@@ -26,6 +27,8 @@ app.get('/', (req, res) => {
     res.sendFile("../frontend/index.html");
 });
 
+// TODO: move to a seperate file
+
 io.on('connection', (socket) => {
   console.log('A user connected');
 
@@ -35,6 +38,10 @@ io.on('connection', (socket) => {
 
     socket.on('audio_prompt', (bufferData)=>{
         process_voice_prompt(bufferData, socket);
+    })
+
+    socket.on('insanityUpdate', (value)=>{
+        insanityLevel.value = value;
     })
 
   socket.on('disconnect', () => {
